@@ -20,7 +20,7 @@ main a {
     display: inline-block;
     float: left;
     width: calc (100% / 3);
-    height: 500px;
+    height: calc (100% / 2);
     position: relative;
 }
 
@@ -31,7 +31,9 @@ main a img {
 
 .img-2 {
     position: absolute;
-    bottom: 0;
+    width: calc (100% / 3);
+    height: 500px;
+    top: 0;
     left: 0;
     opacity: 0;
 }
@@ -52,7 +54,7 @@ a:hover .img-2 {
     color: white;
     background-color: rgb(255, 0, 64);
     position: absolute;
-    bottom: 15px;
+    bottom: 15%;
 }
 
 .sostenibilità {
@@ -60,8 +62,9 @@ a:hover .img-2 {
     color: white;
     background-color: rgb(1, 194, 104);
     position: absolute;
-    bottom: 15px;
+    bottom: 15%;
     left: 47px;
+    float: left;
 }
 
 .prezzo {
