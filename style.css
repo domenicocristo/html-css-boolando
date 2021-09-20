@@ -16,6 +16,8 @@
 }
 
 main a {
+    margin: 10px;
+    display: inline-block;
     float: left;
     width: calc (100% / 3);
     height: 500px;
