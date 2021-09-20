@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+#clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main a {
+    float: left;
+    width: calc (100% / 3);
+    height: 500px;
+    position: relative;
+}
+
+main a img {
+    width: calc (100% / 3);
+    height: 500px;
+}
+
+.img-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+
+a:hover .img-2 { 
+    opacity: 7;
+}
+
+.cuore {
+    font-size: 25px;
+    position: absolute;
+    top: 5%;
+    left: 300px;
+}
+
+.sconto {
+    padding: 5px;
+    color: white;
+    background-color: rgb(255, 0, 64);
+    position: absolute;
+    bottom: 15px;
+}
+
+.sostenibilità {
+    padding: 5px;
+    color: white;
+    background-color: rgb(1, 194, 104);
+    position: absolute;
+    bottom: 15px;
+    left: 47px;
+}
+
+.prezzo {
+    color: rgb(255, 0, 64);
+}
+
+.prezzo-scontato {
+    color: black;
+    text-decoration: line-through;
+}
